@@ -5,4 +5,4 @@ So you can update Path in code ADS=audioDatastore('D:\prediction\PATHOL\*-0-*.wa
 There are three classifier in each severity file SVM and KNN and Decision Tree 
 SVM take more time for excution As compare KNN and Decision tree so Wait when SVm run and show you results . 
 In each Severity you should update your path in Audiostore object 
-For check the results Accuracy , Sensitivity , specificity , Percision , Recall , F1score classOrder you can Add function with name confusionmatStats. and use in code accuracy=confusionmatStats(y_test,predictLabels); like this
+For check the results in MATLAB  Accuracy , Sensitivity , specificity , Percision , Recall , F1score classOrder you can Add function with name confusionmatStats. and use in code accuracy=confusionmatStats(y_test,predictLabels); like this
